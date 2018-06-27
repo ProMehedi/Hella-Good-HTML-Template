@@ -33,7 +33,7 @@ body {
     background: #212121;
 }
 
-body.burgers-v2, body.pizza-v1 {
+body.burgers-v2, body.pizza-v1, body.bbq-v2 {
     background-color: #fff;
 }
 
@@ -1051,6 +1051,7 @@ div#map {
     height: auto;
     z-index:  9;
     background-color:  #fff;
+    padding: 50px 0;
 }
 
 .header-wrap.bbq-v2 .main-menu li a {
@@ -1243,4 +1244,60 @@ div#map {
 h1.section-title {
     color:  #111111;
     text-shadow:  0 0 0;
+}
+
+.footer-top-wrap.bbq-v2 .social-menu-wrap {
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+.footer-top-wrap.bbq-v2 h4 {
+    color: #deac25;
+    font-size:  18px;
+    margin-bottom: 15px;
+}
+
+.footer-top-wrap.bbq-v2 p {
+    padding:  0;
+    color:  #fbfbfb;
+}
+
+.footer-top-wrap.bbq-v2 h2 {
+    margin-bottom:  30px;
+}
+
+.footer-wrap.bbq-v2 {
+    background-color: #4c2700;
+    color:  #deac25;
+}
+
+.footer-wrap.bbq-v2 a {
+    color:  #deac25;
+}
+
+.about-content-inner {
+    background-color:  #d39a00;
+    color: #fff;
+    padding:  100px 50px;
+}
+
+.about-page-conetent .title {background-color:  #865119;color:  #fff;display:  block;margin:  0;padding: 30px 50px;position:  relative;}
+
+.about-page-conetent .title:after {
+    position:  absolute;
+    right:  0;
+    top:  0;
+    width:  50%;
+    height:  100%;
+    content: '';
+    background-color:  #d39a00;
+}
+
+.about-page-content-wrap {
+    margin-top: -50vh;
+    margin-bottom: 80px;
+}
+
+.header-wrap.bbq-v2 .hero-content.about-page {
+    padding-top: 250px;
 }
