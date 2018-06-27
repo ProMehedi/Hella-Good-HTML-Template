@@ -1,0 +1,426 @@
+/*======================
+MEDIAM LAYOUT : 1280px.
+=======================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-food-info .bg { margin-left: -30px; width: 112%; }
+
+    .homepage-v2 .hero-content h1 {
+	    font-size: 50px;
+	}
+
+	.title-inner:before, .title-inner:after { left: -30%; }
+	.title-inner:after { left: auto; right: -30%; }
+	.homepage-v2 .footer-top-wrap h2 { font-size: 35px; }	
+	.single-food-info h1 { font-size: 16px; }
+	.single-food-info h3 { font-size: 15px; }
+
+	ul.main-menu li a {
+	    font-size:  16px;
+	    padding: 15px 20px;
+	}	
+
+	.logo h1 {
+		font-size: 30px;
+	}	
+
+	.bigburger-wrap h1 {
+	    font-size:  56px;
+	}
+
+	.bigburger-wrap h1.rotate-text {
+	    font-size: 130px;
+	}
+}
+
+
+/*=====================
+TABLET LAYOUT : 768px.
+=====================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .slider-wrap .owl-controls .owl-nav div {
+	    top: auto;
+	    height: 30px;
+	    width: 30px;
+	    bottom: 18%;
+	}
+
+	ul.main-menu {
+	    text-align: center;
+	}
+
+	.homepage-v2 .hero-content h1 {
+	    font-size: 45px;
+	}
+
+	.homepage-v2 .info-content {
+	    margin-left: -21px;
+	    text-align: center;
+	    padding: 70px 35px;
+	}
+
+	.homepage-v2 .info-content h3 { margin: 15px 0 0; }
+
+	.homepage-v2 .footer-top-wrap h2 { margin-top: 0; position: inherit; }
+
+	.single-food-info h1 { font-size: 15px; }
+	.single-food-info h3 { font-size: 14px; }
+
+	.logo > img, .logo h1 {
+	    font-size:  24px;
+	}
+
+	.logo {
+	    text-align:  center;
+	}
+
+	.burgers-v2 .navigation-wrap {
+	    padding: 20px 0;
+	}
+
+	ul.main-menu li a {
+	    font-size:  14px;
+	    padding: 15px 15px;
+	}
+
+	.single-burger .burger-img { height: 300px; }
+
+	.bigburger-wrap h1 {
+	    font-size:  46px;
+	}
+
+	.bigburger-wrap h1.rotate-text {
+	    font-size: 90px;
+	}	
+
+	.footer-wrap.burgers-v2 {
+	    padding: 0 0 75px;
+	}
+
+	div#map {
+	    height:  350px;
+	    margin-top:  30px;
+	}
+	
+
+	.pizza-hero-title h1 {
+	    font-size: 25px;
+	    text-align:  left;
+	}
+
+	.pizza-hero-title h2 {
+	    font-size: 22px;
+	    text-align:  left;
+	}
+
+
+	.bigpizza-info h1 {
+	    font-size: 22px;
+	    margin-bottom:  15px;
+	}
+
+	.bigpizza-info p {
+	    font-size:  20px;
+	    margin:  0;
+	}
+
+	.pizza-desc-wrap {
+	    padding: 100px 0;
+	    margin-top:  -100px;
+	}
+
+	.title h1 {
+	    font-size: 25px;
+	}
+
+	.title h2 {
+	    font-size: 26px;
+	}
+
+	.pizza-slide .single-pizza-slide {
+	    height:  250px;
+	    width:  250px;
+	}
+
+	.pizza-slide {
+	    margin-bottom:  50px;
+	}
+
+	.single-desc h2 {
+	    font-size:  22px;
+	}
+
+	.single-desc h3 {
+	    font-size: 17px;
+	}
+
+	.pizza-v1 .footer-top-wrap {
+	    padding-bottom: 330px;
+	}	
+
+	.pizza-v1 .footer-wrap {
+	    padding:  40px 0;
+	}	
+
+}
+
+/*=====================
+SMALL MOBILE LAYOUT : 320px.
+=====================*/
+
+@media only screen and (max-width: 767px) {
+    .logo > img {
+    	width: 60%;
+    }
+
+    .main-menu { display: none; }
+
+    .mobile-menu { display: block; }
+
+    .hero-content h1 {
+    	font-size: 60px;
+    }
+
+    .homepage-v2 .hero-content {
+	    padding-top: 0;
+	}
+
+    .homepage-v2 .hero-content h1 {
+	    font-size: 35px;
+	}
+
+	.single-food-info.food-info-title { height: 350px; }
+
+	.food-info-title.single-food-info h3 { font-size: 17px; }
+	.food-info-title.single-food-info h4 { font-size: 15px; }
+
+	.title-inner:before, .title-inner:after {
+		left: 0;
+		width: 30px;
+	}
+	
+	.title-inner:after {
+		left: auto;
+		right: 0;
+	}
+
+	.slider-wrap {
+		margin-top: -50px;
+	}
+
+    .single-slide {
+    	height: 350px;
+    }
+
+    .single-slide h3 { font-size: 35px }
+    .single-slide h4 { font-size: 25px }
+
+    .slider-wrap .owl-controls .owl-nav div {
+	    top: auto;
+	    height: 30px;
+	    width: 30px;
+	    bottom: 18%;
+	}
+
+	.single-food-info h1 { font-size: 25px; }
+	.single-food-info h3 { font-size: 20px; }
+
+	.single-food-info { height: 400px; }
+
+	.single-food-info.mt-offset { margin-top: -25px; }
+
+	.footer-top-wrap h2 { font-size: 25px; }
+
+	.info-content {
+	    text-align: center;
+	    padding: 50px 20px;
+	}
+
+	.homepage-v2 .single-food-info {
+		margin-bottom: 30px;
+	}
+
+	.homepage-v2 .single-food-info h1 { font-size: 16px; }
+	.homepage-v2 .single-food-info h3 {
+		font-size: 15px;
+		margin: 15px 0 0;
+	}
+
+	.homepage-v2 .footer-top-wrap h2 {
+	    position:  inherit;
+	    font-size:  20px;
+	    margin-bottom: 0;
+	}
+
+	.footer-top-wrap p {
+	    padding: 25px 0px;
+	    font-size: 17px;
+	}
+
+	ul.social-menu li a {
+	    width: 25px;
+	    height: 25px;
+	    margin: 0 10px;
+	    margin-bottom: 10px;
+	}
+
+	.single-food-info .bg {
+		height: 150px;
+	}
+
+	.mobile-menu .slicknav_menu {
+	    background: transparent;
+	    text-align:  center;
+	    font-size:  20px;
+	}
+
+	.mobile-menu .slicknav_menu .slicknav_btn {
+	    border: 1px solid #e39532;
+	    margin-top: 25px;
+	    float:  none;
+	    display:  inline-block;
+	}
+
+	.logo > img, .logo h1 {
+	    font-size:  24px;
+	}
+
+	.logo {
+	    text-align:  center;
+	}
+
+	.burgers-v2 .navigation-wrap {
+	    padding: 20px 0;
+	}
+
+	.burgers-wrap {
+	    margin-top: -50px;
+	}
+
+	.single-burger {
+	    margin-bottom:  50px;
+	}
+
+	.bigburger-wrap h1 {
+	    font-size:  36px;
+	}
+
+	.bigburger-wrap h1.rotate-text {
+	    font-size: 70px;
+	}
+
+	.footer-wrap.burgers-v2 {
+	    padding: 0 0 75px;
+	}
+
+	div#map {
+	    height:  250px;
+	    margin-top:  30px;
+	}		
+
+	.pizza-hero-title h1 {
+	    font-size: 25px;
+	    text-align:  left;
+	}
+
+	.pizza-hero-title h2 {
+	    font-size: 22px;
+	    text-align:  left;
+	}
+
+	.pizza-hero-title .pizza-title-img {
+	    width:  40%;
+	}
+
+	.single-pizza {
+	    margin: 0 0 50px;
+	}
+
+	.bigpizza-info {
+	    width: 100%;
+	    padding:  30px;
+	}
+
+	.bigpizza-info h1 {
+	    font-size: 22px;
+	    margin-bottom:  15px;
+	}
+
+	.bigpizza-info p {
+	    font-size:  20px;
+	    margin:  0;
+	}
+
+	.pizza-desc-wrap {
+	    padding: 100px 0;
+	    margin-top:  -100px;
+	}
+
+	.title h1 {
+	    font-size: 25px;
+	}
+
+	.title h2 {
+	    font-size: 26px;
+	}
+
+	.pizza-slide .single-pizza-slide {
+	    height:  250px;
+	    width:  250px;
+	}
+
+	.pizza-slide {
+	    margin-bottom:  50px;
+	}
+
+	.single-desc h2 {
+	    font-size:  22px;
+	}
+
+	.single-desc h3 {
+	    font-size: 17px;
+	}
+
+	.single-desc {
+	    padding: 5px;
+	}
+
+	.single-desc .price {
+	    font-size: 17px;
+	}
+
+	.pizza-desc-wrap:before {
+	    height: 70%;
+	}
+
+	.map-wrap {
+	    margin-top:  -100px;
+	}	
+
+	.pizza-v1 .footer-top-wrap {
+	    padding-bottom:  135px;
+	}
+
+	.pizza-v1 .footer-wrap {
+	    padding:  40px 0;
+	}	
+
+	.single-pizza h3 {
+	    font-size: 26px;
+	}
+
+	.single-pizza p {
+	    font-size: 18px;
+	}	
+}
+
+
+/*========================
+LARGE MOBILE LAYOUT: 480px.
+=========================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
