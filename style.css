@@ -1108,3 +1108,71 @@ div#map {
 .right.bbq-title p {
     max-width: 70%;
 }
+
+.section-padding.bbq-wrap {
+    padding-top:  200px;
+}
+
+.single-bbq {
+    background-color:  #deac25;
+    color:  #fff;
+    padding: 70px 40px;
+    height: 600px;
+    position:  relative;
+    margin: 30px;
+}
+
+.single-bbq h3 {
+    font-size:  36px;
+    font-weight: 600;
+}
+
+.single-bbq .pizza-img {
+    height: 50%;
+    background-size: cover;
+    background-repeat:  no-repeat;
+    position:  absolute;
+    left:  0;
+    bottom:  0;
+    width:  100%;
+}
+
+.bbq-wrap .col-lg-4:nth-child(2) .single-bbq {
+    background-color: #bf8b00;
+}
+
+.bbq-wrap .col-lg-4:nth-child(3) .single-bbq {
+    background-color: #865119;
+}
+
+.bbq-info-wrap {
+    position:  relative;
+    padding-bottom: 245px;
+}
+
+.bbq-info-wrap:after {
+    position:  absolute;
+    left:  0;
+    bottom: 0;
+    width:  100%;
+    height: 200px;
+    content:  '';
+    background-image: url(assets/img/bbq/table-bg.jpg);
+}
+
+.bbq-info-inner h1 {
+    font-size:  36px;
+    text-shadow:  0 0 0;
+    color:  #deac25;
+    margin-bottom:  30px;
+}
+
+.bbq-info-inner {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.bbq-info-wrap img {
+    max-width: 120%;
+    margin: -150px;
+}
