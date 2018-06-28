@@ -33,7 +33,7 @@ body {
     background: #212121;
 }
 
-body.burgers-v2, body.pizza-v1, body.bbq-v2 {
+body.burgers-v2, body.pizza-v1, body.bbq-v2, body.subs-v1 {
     background-color: #fff;
 }
 
@@ -1321,4 +1321,386 @@ h1.section-title {
 .single-tes-slide h4 {
     color: #deac25;
     font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+/*Subs-v1 Page*/
+.subs-img-slide .owl-item .single-subs-img {
+  cursor: pointer;
+  margin: 6% 0;
+  transition: all 0.4s ease;
+  height: 300px;
+  overflow: hidden;
+}
+.subs-img-slide .owl-item.center .single-subs-img {
+  cursor: auto;
+  margin: 0;
+  height: 376px;
+}
+.subs-img-slide .owl-item:not(.center) .single-subs-img:hover {
+  opacity: .75;
+}
+
+.logo-wrap {
+    padding:  30px 0;
+    background-color: #000;
+}
+
+.logo-wrap .logo h1 {
+    color:  #d9aa20;
+}
+
+.subs-v1 h1 {
+    color: #d9aa20;
+}
+
+.header-wrap.subs-v1 {
+    height:  auto;
+}
+
+.header-wrap.subs-v1 .navigation-wrap {
+    position: inherit;
+    top: auto;
+    background-color: rgba(208, 146, 3, 0.99);
+    padding:  0;
+    margin-top: -20px;
+}
+
+.header-wrap.subs-v1 .navigation-wrap a {
+    font-size:  18px;
+}
+
+.header-wrap.subs-v1 .navigation-wrap li:before {
+    display:  none;
+}
+
+.hero-wrap {
+    padding:  100px 0;
+}
+
+.hero-wrap-inner h1 {
+    text-shadow:  0 0 0;
+    font-family:  'TheBlacklist';
+    color:  #004722;
+    font-size: 65px;
+}
+
+.hero-wrap-inner {
+    font-size: 18px;
+    margin-top:  50px;
+}
+
+.section-title-wrap .section-title {
+    background-color:  #ce0a11;
+    color:  #fff;
+    height: 100px;
+    position:  relative;
+    padding-left: 180px;
+    text-align:  left;
+    margin-bottom: 0;
+    margin-top: -50px;
+}
+
+.section-title-wrap .section-title .title-icon {
+    position:  absolute;
+    left: 90px;
+    top: 50%;
+    width: 66px;
+    height: 66px;
+    margin-top: -33px;
+    line-height: 3.2;
+}
+
+.section-title-wrap .section-title h3 {
+    padding-top: 25px;
+    margin:  0;
+    font-size: 22px;
+}
+
+.section-title-wrap .section-title p {
+    color:  #ff646a;
+}
+
+.section-title-wrap .section-title:before, .section-title-wrap .section-title:after {
+    position: absolute;
+    right: 100%;
+    top:  0;
+    content:  '';
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #800005;
+    border-left: 35px solid transparent;
+}
+
+.section-title-wrap .section-title:after {
+    right:  auto;
+    left:  100%;
+    border-left:  none;
+    border-right:  35px solid transparent;
+}
+
+.subs-info-wrap {
+    position:  relative;
+    background-image: url(assets/img/subs/subs-info-bg.jpg);
+    padding-bottom: 110px;
+}
+
+.subs-info-inner {
+    margin-top:  80px;
+    color:  #fff;
+    font-size: 18px;
+}
+
+.subs-img-slider-wrap {
+    margin-top: -38px;
+}
+
+.subs-creative-title-wrap {
+    padding:  100px 0;
+    font-size: 17px;
+}
+
+.subs-creative-title-wrap h1 {
+    position:  relative;
+    font-family:  'TheBlacklist';
+    text-shadow:  0 0 0;
+    font-size:  50px;
+    margin-bottom: 30px;
+}
+
+.subs-creative-title-wrap h1:before, .subs-creative-title-wrap h1:after {
+    position:  absolute;
+    left:  -20px;
+    top:  0;
+    width:  80px;
+    height:  80px;
+    content:  '';
+    background-image: url(assets/img/subs/title-icon.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+}
+
+.subs-creative-title-wrap h1:after {
+    left: auto;
+    right: -20px;
+}
+
+.subs-item-wrap {
+    background-color: #fff;
+    background-image: url(assets/img/subs/subs-item-bg.png);
+    background-position: bottom center;
+    padding-bottom: 200px;
+}
+
+.single-subs-item {
+    padding: 25px 50px;
+    background-color:  #fff;
+    font-size: 18px;
+    border-radius:  10px;
+    overflow:  hidden;
+    margin: 30px;
+}
+
+.single-subs-item h3 {
+    color:  #ce0a11;
+    font-size: 23px;
+    font-weight:  700;
+}
+
+.subs-v1 .testimonial-slide .tes-img {
+    position:  inherit;
+    display: inline-block;
+    margin-bottom:  30px;
+}
+
+.subs-v1 .testimonial-slide {
+    text-align:  center;
+    font-size: 18px;
+}
+
+.subs-v1 .testimonial-slide h4 {
+    margin-top:  30px;
+}
+
+.footer-top-wrap.subs-v1 .map-wrap {
+    height:  100%;
+    margin: 0 0 0 15px;
+}
+
+.footer-top-wrap.subs-v1 .map-wrap #map {
+    height: 100%;
+    border: none;
+}
+
+.footer-wrap.subs-v1 {
+    background-color:  #000;
+}
+
+.footer-top-wrap.bbq-v2.subs-v1 {
+    padding: 200px 0;
+}
+
+.footer-wrap.subs-v1, .footer-wrap.subs-v1 a {
+    color:  #d9aa20;
+}
+
+.our-works-wrap .container-fluid {
+    max-width: 90%;
+}
+
+.portfolio-wrap {
+    position:  relative;
+}
+
+.portfolio-wrap > li {
+    width: 22.1%;
+    display:  inline-block;
+    margin: 15px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 180px;
+}
+
+.grid-item .hover-item {
+    position:  relative;
+    background-color: rgba(0, 0, 0, 0.75);
+    color:  #fff;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.90);
+    -ms-transform: scale(0.90);
+    -o-transform: scale(0.90);
+    transform: scale(0.90);
+    opacity: 0;
+    padding: 50px 0;
+}
+
+.grid-item:hover .hover-item {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+    opacity: 1;
+}
+
+.hover-item h4 {
+    font-size:  18px;
+    color:  #fff;
+    margin: 5px 0;
+}
+
+.hover-item i {
+    font-size:  25px;
+    margin-bottom: 5px;
+}
+
+ul.portfolio-filters {
+    padding-top: 15px;
+}
+
+ul.portfolio-filters li {
+    display:  inline-block;
+    text-transform:  uppercase;
+    font-size: 28px;
+    padding: 15px 40px;
+    cursor:  pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+}
+
+ul.portfolio-filters li:hover, ul.portfolio-filters li.active {
+    color: #f1e800;
+}
+
+ul.portfolio-filters li:before {
+    position:  absolute;
+    left: 0;
+    top: 50%;
+    width:  2px;
+    height: 20px;
+    background-color:  #fff;
+    content:  '';
+    margin-top:  -10px;
+}
+
+ul.portfolio-filters li:first-child:before {
+    display:  none;
+}
+
+/* ---- grid ---- */
+.grid {
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* 5 columns, percentage width */
+.grid-item,
+.grid-sizer {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  height: 400px;
+  border: 10px solid #fff;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.grid-item--width2 { width: 50%; }
+.grid-item--height3 { height: 1200px; }
+
+.our-works-wrap .section-title-wrap {
+    margin-top: -70px;
+}
+
+.our-works-wrap .section-title-wrap .section-title:before, .our-works-wrap .section-title-wrap .section-title:after {
+    top:  auto;
+    bottom:  0;
+    border-top: 70px solid #b15d00;
+    border-bottom: none;
+}
+
+.our-works-wrap .section-title-wrap .section-title {
+    padding: 0;
+    text-align: center;
+    background-color: #d29e12;
+}
+
+.portfolio-title h3 {
+    font-weight:  700;
+}
+
+.portfolio-title {
+    margin-top: 100px;
+    margin-bottom:  50px;
+    padding: 0 10px;
+}
+
+.subs-content-inner h1 {
+    text-shadow:  0 0 0;
+    font-family:  'TheBlacklist';
 }

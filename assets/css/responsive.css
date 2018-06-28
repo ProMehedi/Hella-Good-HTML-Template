@@ -31,6 +31,10 @@ MEDIAM LAYOUT : 1280px.
 	.bigburger-wrap h1.rotate-text {
 	    font-size: 130px;
 	}
+	.footer-top-wrap.subs-v1-about h4 {
+	    position:  absolute;
+	    left:  -70px;
+	}
 }
 
 
@@ -239,6 +243,39 @@ TABLET LAYOUT : 768px.
 	    padding: 30px;
 	    font-size: 18px;
 	}	
+
+	.subs-v1 .testimonial-slide .tes-img {
+	    left:  auto;
+	    margin-left:  0;
+	}
+
+	.subs-v1 .single-tes-slide {
+	    padding: 0;
+	}		
+
+	.grid-item {
+	    height:  200px;
+	}
+
+	.grid-item, .grid-sizer {
+	    width: 50%;
+	}		
+
+	ul.portfolio-filters li {
+	    font-size:  16px;
+	    padding: 15px 18px;
+	}
+
+	ul.portfolio-filters {
+	    padding-top: 23px;
+	}
+
+	.footer-top-wrap.subs-v1 .map-wrap { height: 300px; }
+	
+	.footer-top-wrap.subs-v1-about h4 {
+	    position:  absolute;
+	    left:  -70px;
+	}
 
 }
 
@@ -608,6 +645,87 @@ SMALL MOBILE LAYOUT : 320px.
 	.about-content-inner {
 	    padding: 30px;
 	    font-size: 18px;
+	}
+
+	.hero-wrap-inner h1 {
+	    font-size: 40px;
+	}
+
+	.section-title-wrap .section-title {
+	    height:  auto;
+	    max-width: 95%;
+	    padding-left:  30px;
+	    padding-bottom: 5px;
+	}
+
+	.section-title-wrap .section-title .title-icon {
+	    display:  none;
+	}
+
+	.subs-v1 h1 {
+	    font-size: 30px;
+	}
+
+	.subs-img-slide .owl-item.center .single-subs-img {
+		height: 250px;
+	}
+
+	.subs-v1 h1 {
+	    font-size: 18px;
+	}
+
+	.subs-creative-title-wrap h1:before, .subs-creative-title-wrap h1:after {
+	    width:  40px;
+	    left:  15px;
+	    margin-top: 0;
+	}
+
+	.subs-creative-title-wrap h1:after {
+	    left:  auto;
+	    right: 15px;
+	}
+
+	.subs-creative-title-wrap {
+	    padding:  50px 0;
+	}
+
+	ul.portfolio-filters li {
+	    font-size:  16px;
+	    padding: 15px 18px;
+	}
+
+	ul.portfolio-filters {
+	    padding-top: 0;
+	}
+
+	.footer-top-wrap.subs-v1 .map-wrap {
+	    height: 250px;
+	}
+
+	.footer-top-wrap.bbq-v2.subs-v1 {
+	    padding:  80px 0;
+	}	
+
+	.grid-item {
+	    height:  200px;
+	}
+
+	.grid-item, .grid-sizer {
+	    width: 50%;
+	}	
+	.portfolio-title {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 14px;
+	}
+
+	.subs-v1 .testimonial-slide .tes-img {
+	    left:  auto;
+	    margin-left:  0;
+	}
+
+	.subs-v1 .single-tes-slide {
+	    padding: 0;
 	}
 }
 
