@@ -162,6 +162,82 @@ TABLET LAYOUT : 768px.
 
 	.pizza-v1 .footer-wrap {
 	    padding:  40px 0;
+	}
+
+	.bbq-hero-title .bbq-title {
+	    width:  100%;
+	    text-align:  center;
+	    padding: 30px 15px;
+	    float:  none;
+	    display:  block;
+	    font-size: 18px;
+	}
+
+	.bbq-hero-title .bbq-title h1 {
+	    text-align:  center;
+	    font-size: 25px;
+	    margin:  0;
+	}
+
+	.bbq-hero-title .bbq-title.left {
+	    padding: 30px 0;
+	}
+
+	.bbq-hero-title .bbq-title p {
+	    max-width: inherit;
+	}	
+	.section-padding.bbq-wrap {
+	    padding: 80px 0;
+	}
+
+	.bbq-info-wrap img {
+	    margin:  0;
+	    max-width:  100%;
+	}
+
+	.bbq-info-wrap {
+	    padding-top:  0;
+	    padding-bottom:  80px;
+	}
+
+	.bbq-info-inner h1 {
+	    font-size: 25px;
+	}
+
+	.bbq-info-wrap:after {
+	    display: none;
+	}
+
+	.bbq-contact-form:after {
+	    width:  100%;
+	}	
+
+	.bbq-form-inner {
+	    padding: 80px 0;
+	}
+
+	.bbq-feature-wrap {
+	    padding:  80px 0;
+	}
+
+	h1.section-title {
+	    font-size: 28px;
+	    margin-bottom:  50px;
+	}
+
+	.single-bbq-feature h3 {
+	    margin-top: 25px;
+	}
+
+	.about-page-conetent .title {background-color:  #d39a00;text-shadow:  0 0 0;text-align:  center;}
+
+	.about-page-conetent .title:after {
+	    display: none;
+	}
+
+	.about-content-inner {
+	    padding: 30px;
+	    font-size: 18px;
 	}	
 
 }
@@ -414,6 +490,125 @@ SMALL MOBILE LAYOUT : 320px.
 	.single-pizza p {
 	    font-size: 18px;
 	}	
+
+	.header-wrap.bbq-v2 .navigation-wrap {
+	    padding: 0 0 15px;
+	}
+
+	.header-wrap.bbq-v2 .navigation-wrap .slicknav_nav a {
+	    color: #646464;
+	}
+
+	.header-wrap.bbq-v2 .hero-content h1 {
+	    font-size:  30px;
+	    margin-bottom: 15px;
+	}
+
+	.header-wrap.bbq-v2 .hero-content p {
+	    font-size: 18px;
+	}
+
+	.header-wrap.bbq-v2 .hero-content .button {
+	    margin-top:  15px;
+	    margin-bottom: 10px;
+	}
+
+	.bbq-hero-title .bbq-title {
+	    width:  100%;
+	    text-align:  center;
+	    padding: 30px 15px;
+	    float:  none;
+	    display:  block;
+	    font-size: 18px;
+	}
+
+	.bbq-hero-title .bbq-title h1 {
+	    text-align:  center;
+	    font-size: 25px;
+	    margin:  0;
+	}
+
+	.bbq-hero-title .bbq-title.left {
+	    padding: 30px 0;
+	}
+
+	.bbq-hero-title .bbq-title p {
+	    max-width: inherit;
+	}
+
+	.section-padding.bbq-wrap {
+	    padding: 80px 0;
+	}
+
+	.single-bbq {
+	    margin: 0 0 30px;
+	    height: 500px;
+	}
+
+	.bbq-info-wrap img {
+	    margin:  0;
+	    max-width:  100%;
+	}
+
+	.bbq-info-wrap {
+	    padding-top:  0;
+	    padding-bottom:  80px;
+	}
+
+	.bbq-info-inner h1 {
+	    font-size: 25px;
+	}
+
+	.bbq-info-wrap:after {
+	    display: none;
+	}
+
+	.bbq-contact-form:after {
+	    width:  100%;
+	}
+
+	.bbq-form-inner {
+	    padding: 80px 0;
+	}
+
+	.bbq-feature-wrap {
+	    padding:  80px 0;
+	}
+
+	h1.section-title {
+	    font-size: 28px;
+	    margin-bottom:  50px;
+	}
+
+	.single-bbq-feature h3 {
+	    margin-top: 25px;
+	}
+
+	.single-bbq-feature {
+	    margin-bottom:  50px;
+	}
+
+	.single-tes-slide {
+	    padding: 110px 0 0;
+	    text-align:  center;
+	    font-size: 18px;
+	}
+
+	.testimonial-wrap {
+	    padding:  80px 0;
+	}
+
+	.testimonial-slide .tes-img {left:  50%;margin-left:  -50px;}	
+	.about-page-conetent .title {background-color:  #d39a00;text-shadow:  0 0 0;text-align:  center;}
+
+	.about-page-conetent .title:after {
+	    display: none;
+	}
+
+	.about-content-inner {
+	    padding: 30px;
+	    font-size: 18px;
+	}
 }
 
 

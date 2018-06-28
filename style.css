@@ -1301,3 +1301,24 @@ h1.section-title {
 .header-wrap.bbq-v2 .hero-content.about-page {
     padding-top: 250px;
 }
+
+.testimonial-wrap .section-title {
+    color:  #fff;
+}
+
+.testimonial-wrap {
+    color:  #fff;
+    padding:  150px 0;
+}
+
+.testimonial-slide .tes-img {height:  100px;width:  100px;border-radius:  50%;background-position:  center top;position: absolute;left:  0;top:  0;}
+
+.single-tes-slide {
+    position:  relative;
+    padding-left:  150px;
+}
+
+.single-tes-slide h4 {
+    color: #deac25;
+    font-size: 17px;
+}
