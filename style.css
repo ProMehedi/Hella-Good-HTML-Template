@@ -1970,3 +1970,75 @@ ul.portfolio-filters li:first-child:before {
 .footer-wrap.dounts-v2 {
     background-color:  #f181a7;
 }
+
+.dounts-content-inner {
+    background-color:  #f181a7;
+    color:  #fff;
+    padding: 60px 60px 250px 60px;
+    position: relative;
+    z-index: 3;
+    font-family: 'Tahoma';
+}
+
+.dounts-content-inner:before, .dounts-content-inner:after {
+    position:  absolute;
+    top:  0;
+    left:  0;
+    width:  100%;
+    height:  200px;
+    content:  '';
+    background-image: url(assets/img/dounts/about-top-shape.png);
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.dounts-content-inner:after {
+    background-image: url(assets/img/dounts/about-bottom-shape.png);
+    background-position: bottom center;
+    bottom: 0;
+    top: auto;
+}
+
+.dounts-content-inner h1 {
+    margin-bottom: 150px;
+    font-family: 'Just Another Hand', cursive;
+    text-transform: capitalize;
+    font-size: 80px;
+    line-height: 0;
+}
+
+.dounts-content-wrap {
+    position: relative;
+    left:  0;
+    top:  0;
+    width:  100%;
+    height: auto;
+    overflow:  hidden;
+    margin-top: -90vh;
+}
+
+.dounts-content-wrap:after {
+    position:  absolute;
+    left:  0;
+    bottom:  0;
+    content:  '';
+    background-color: #363636;
+    height: 15%;
+    width:  100%;
+    z-index:  -1;
+}
+
+.footer-top-wrap.dounts-v2-about  {
+    background-color: #363636;
+}
+
+.footer-wrap.dounts-v2-about {
+    background-color: #000;
+}
+
+.footer-wrap.dounts-v2-about, .footer-wrap.dounts-v2-about a {
+    color: #ff89b0;
+}
