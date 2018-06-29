@@ -33,7 +33,7 @@ body {
     background: #212121;
 }
 
-body.burgers-v2, body.pizza-v1, body.bbq-v2, body.subs-v1 {
+body.burgers-v2, body.pizza-v1, body.bbq-v2, body.subs-v1, body.dounts-v2 {
     background-color: #fff;
 }
 
@@ -61,6 +61,14 @@ h1, h2 {
     color: #e39532;
     text-shadow: 5px 0 29px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
+}
+
+.dounts-v2 h1 {
+    font-family: 'Just Another Hand', cursive;
+    font-weight: normal;
+    color: #f181a7;
+    text-shadow: 0 0 0;
+    font-size: 50px;
 }
 
 h1 span {
@@ -169,9 +177,10 @@ input, textarea {
     padding: 10px 0 10px 15px;
 }
 
-.logo > img, .logo h1 {
+.logo > img,body .logo h1 {
     display: inline-block;
     font-size: 36px;
+    font-family: 'IntroRustG-Base2Line', sans-serif;
 }
 
 .logo > h1 a {
@@ -431,6 +440,8 @@ ul.social-menu li a {
     height: 30px;
     margin: 0 20px;
     margin-bottom: 20px;
+    color: #e39532;
+    font-size: 30px;
 }
 
 ul.social-menu li a img {
@@ -1703,4 +1714,259 @@ ul.portfolio-filters li:first-child:before {
 .subs-content-inner h1 {
     text-shadow:  0 0 0;
     font-family:  'TheBlacklist';
+}
+
+
+
+
+
+
+/*Douts Page*/
+.header-wrap.dounts-v2 {
+    border-bottom-left-radius: 100%;
+    overflow:  hidden;
+    border-bottom-right-radius: 100%;
+}
+.header-wrap.dounts-v2 .navigation-wrap {
+    background-color:  #2b2b2b;
+    padding: 10px 0;
+}
+
+.header-wrap.dounts-v2 .hero-content {
+    padding-top: 60px;
+}
+
+.header-wrap.dounts-v2 .navigation-wrap li a {
+    color: #f181a7;
+    font-size: 18px;
+}
+
+.header-wrap.dounts-v2 .navigation-wrap li:before {
+    display:  none;
+}
+
+.header-wrap.dounts-v2 .hero-content h1 {
+    font-size: 90px;
+    font-family:  'IntroRustG-Base2Line', sans-serif;
+    color:  #ff89b0;
+    font-weight: 600;
+}
+
+.dounts-v2 .button {
+    border-radius:  5px;
+    padding: 10px 45px;
+}
+
+.dounts-v2 .button.boxed-btn {
+    background-color: #272727;
+    border-color:  #272727;
+}
+
+.dounts-v2 .button.transparent-btn {
+    color:  #f181a7;
+    border-color:  #f181a7;
+}
+
+.single-dounts .dounts-img {
+    height:  250px;
+    width:  250px;
+    display:  inline-block;
+    border-radius:  50%;
+    margin-bottom:  50px;
+}
+
+.single-dounts h3 {
+    color:  #c54d76;
+    font-size: 23px;
+    font-family: 'Arial Rounded MT';
+    font-weight:  700;
+}
+
+.dounts-wrap {
+    position:  relative;
+    z-index:  3;
+}
+
+.dounts-wrap:before, .dounts-wrap:after {
+    position:  absolute;
+    left:  0;
+    bottom:  0;
+    width:  100%;
+    height: 65%;
+    background-color:  #000;
+    content:  '';
+    z-index:  -1;
+}
+
+.dounts-wrap:before {
+    background-image: url(assets/img/dounts/feature-bg.jpg);
+    top: 100%;
+    bottom: auto;
+    height: 100px;
+    z-index: 1;
+    background-color: transparent;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.single-dounts {
+    color:  #fff;
+    margin-bottom:  30px;
+}
+
+.single-dounts-slide {
+    height: 650px;
+    width:  650px;
+    margin: 0 auto;
+    border-radius:  50%;
+}
+
+.best-dounts-wrap {
+    background-color:  #f181a7;
+    color:  #fff;
+    padding: 250px 0 150px;
+}
+
+.best-dounts-inner h1 {
+    color: #fff;
+    text-transform: inherit;
+    font-size: 125px;
+    line-height: 0.6;
+    margin-bottom: 35px;
+}
+
+.best-dounts-inner .button.transparent-btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+.header-wrap.dounts-v2 .hero-content .button.transparent-btn {
+    background-color:  #f181a7;
+    color:  #fff;
+}
+
+.dounts-slide-wrap {
+    position:  relative;
+    z-index:  3;
+}
+
+.dounts-slide-wrap:after, .dounts-slide-wrap:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  100%;
+    content:  '';
+    background-color:  #000;
+    opacity: 0.7;
+    z-index:  -1;
+}
+
+.dounts-slide-wrap:before {
+    background-color: transparent;
+    height: 25%;
+    background-image: url(assets/img/dounts/douts-slide-shape.png);
+    z-index: 1;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: top center;
+    opacity: 1;
+}
+
+.big-dounts-wrap {
+    height: 100vh;
+    position:  relative;
+}
+
+.big-dounts-wrap:after {
+    position:  absolute;
+    left:  0;
+    top:  -100px;
+    content:  '';
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/img/dounts/big-dounts-shape.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.single-dounts-gallary {
+    height: 280px;
+    margin-bottom:  30px;
+    border-radius: 15px;
+}
+
+.dounts-gallary-wrap {
+    border-bottom: 2px solid #7d7d7d;
+}
+
+.testimonial-wrap.dounts-v2 .section-title {
+    color:  #f181a7;
+    font-size:  100px;
+    text-transform:  capitalize;
+}
+
+.testimonial-wrap.dounts-v2 .section-title h1 {
+    text-transform:  capitalize;
+}
+
+.testimonial-wrap.dounts-v2 .testimonial-slide {
+    color: #424242;
+    text-align:  center;
+}
+
+.testimonial-wrap.dounts-v2 .testimonial-slide .single-tes-slide {
+    padding: 0 50px;
+}
+
+.testimonial-wrap.dounts-v2 .testimonial-slide .single-tes-slide .tes-img {
+    position:  inherit;
+    display:  inline-block;
+    margin-bottom:  100px;
+}
+
+.testimonial-wrap.dounts-v2 .testimonial-slide .single-tes-slide h4 {
+    margin-top:  100px;
+    color:  #c54d76;
+}
+
+.tes-content:before, .tes-content:after {
+    font-family:  'FontAwesome';
+    content: '\f10d';
+    color:  #c54d76;
+    font-size: 30px;
+    position:  absolute;
+    left:  0;
+    top: -60px;
+}
+
+.tes-content {
+    position:  relative;
+}
+
+.tes-content:after {
+    top:  auto;
+    bottom:  -60px;
+    right:  0;
+    left:  auto;
+    content: '\f10e';
+}
+
+.footer-top-wrap.dounts-v2 h2, .footer-top-wrap.dounts-v2 h4 ,.footer-top-wrap.dounts-v2 ul.social-menu li a {
+    color:  #ff89b0;
+}
+
+.footer-top-wrap.dounts-v2 h2 {
+    padding-bottom: 30px;
+}
+
+.footer-top-wrap.dounts-v2 h4 {
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+.footer-wrap.dounts-v2 {
+    background-color:  #f181a7;
 }

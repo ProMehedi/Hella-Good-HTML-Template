@@ -277,6 +277,20 @@ TABLET LAYOUT : 768px.
 	    left:  -70px;
 	}
 
+	.header-wrap.dounts-v2 .hero-content h1 {
+	    font-size:  50px;
+	    margin-bottom:  20px;
+	}
+
+	.header-wrap.dounts-v2 .hero-content .button {
+	    margin-top:  20px;
+	}
+
+	.footer-top-wrap.dounts-v2 h4 {
+		position: inherit;
+		left: auto;
+	}
+
 }
 
 /*=====================
@@ -726,6 +740,29 @@ SMALL MOBILE LAYOUT : 320px.
 
 	.subs-v1 .single-tes-slide {
 	    padding: 0;
+	}
+
+	.single-dounts {
+	    margin-bottom:  70px;
+	}
+
+	.best-dounts-wrap img {margin-bottom:  50px;}
+
+	.best-dounts-inner h1 {
+	    font-size: 60px;
+	}
+
+	.single-dounts-slide {
+	    height:  300px;
+	    width: 300px;
+	}	
+
+	.testimonial-wrap.dounts-v2 .testimonial-slide .single-tes-slide .tes-img {
+		display: block;
+	}
+
+	.header-wrap.dounts-v2 .navigation-wrap .slicknav_nav a {
+		color: #fff;
 	}
 }
 

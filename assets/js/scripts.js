@@ -30,10 +30,41 @@
 
         // BBQ Testimonial Slider
         $('#bbq_testimonial_slide').owlCarousel({
-        	items: 1,
+            items: 1,
+            loop: true,
+            dots: false,
+            nav: false,
+        });
+
+        // Dounts Slider
+        $('#dounts_slide').owlCarousel({
+            items: 1,
+            loop: true,
+            dots: false,
+            nav: false,
+        });
+
+        // Dounts Testimonial Slider
+        $('#dounts_testimonial_slide').owlCarousel({
+        	items: 3,
         	loop: true,
         	dots: false,
         	nav: false,
+            margin: 30,
+            responsive : {
+                0 : {
+                    items: 1,
+                },
+                480 : {
+                    items: 1,
+                },
+                768 : {
+                    items: 2,
+                },
+                1100 : {
+                    items: 3,
+                }
+            }
         });
 
         $('.main-menu').slicknav({
