@@ -181,6 +181,7 @@ input, textarea {
     display: inline-block;
     font-size: 36px;
     font-family: 'IntroRustG-Base2Line', sans-serif;
+    text-transform: uppercase;
 }
 
 .logo > h1 a {
@@ -244,6 +245,9 @@ ul.main-menu li a {
     color:  #fff;
     text-transform:  uppercase;
     padding: 10px 30px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .mobile-menu { display: none; }
@@ -434,6 +438,16 @@ ul.social-menu li {
     display:  inline-block;
 }
 
+a {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
 ul.social-menu li a {
     display:  block;
     width: 30px;
@@ -442,6 +456,13 @@ ul.social-menu li a {
     margin-bottom: 20px;
     color: #e39532;
     font-size: 30px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+ul.social-menu li:hover a {
+    opacity: 0.6;
 }
 
 ul.social-menu li a img {
@@ -2041,4 +2062,347 @@ ul.portfolio-filters li:first-child:before {
 
 .footer-wrap.dounts-v2-about, .footer-wrap.dounts-v2-about a {
     color: #ff89b0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Burrito Page*/
+body.burrito-v1 {
+    background-color:  #fff;
+}
+
+.burrito-v1 .button {
+    padding: 10px 45px;
+    border-radius: 5px;
+}
+
+.burrito-v1 h1 {
+    font-family: 'Old English Text MT';
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.burrito-v1 h1, .burrito-v1 h2 {
+    text-shadow: 0 0 0;
+}
+
+.burrito-v1 .button.boxed-btn {
+    background-color:  #b41502;
+    border-color:  #b41502;
+}
+
+.burrito-v1 .container-fluid {
+    max-width: 90%;
+}
+
+.header-wrap.burrito-v1 .navigation-wrap {background-color:  #3b0000;padding:  35px 0;}
+
+.header-wrap.burrito-v1 .main-menu li a {
+    color: #faa91b;
+}
+
+.hero-content-inner {
+    background-color:  rgba(0, 0, 0, 0.5);
+    padding: 70px 50px;
+    margin-bottom:  150px;
+}
+
+.burrinto-single-info {
+    background-color:  #fff;
+    padding: 50px 25px 110px 25px;
+    position: relative;
+}
+
+.burrinto-single-info:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    content: '';
+    background-color: #3b0000;
+}
+
+.burrinto-info-wrap .burrinto-single-info .button {
+    background-color: #3b0000;
+    border-color: #3b0000;
+}
+
+.burrinto-info-wrap .col-lg-4:nth-child(2) .burrinto-single-info:after, .burrinto-info-wrap .col-lg-4:nth-child(2) .burrinto-single-info .button {
+    background-color: #fea200;
+    border-color: #fea200;
+}
+
+.burrinto-info-wrap .col-lg-4:nth-child(3) .burrinto-single-info:after, .burrinto-info-wrap .col-lg-4:nth-child(3) .burrinto-single-info .button {
+    background-color: #b41502;
+    border-color: #b41502;
+}
+
+.burrinto-info-wrap .col-lg-4:nth-child(2) .burrinto-single-info h1 {
+    color: #fea200;;
+}
+
+.burrinto-single-info img {
+    margin:  20px 0;
+    width: 100%;
+}
+
+.burrinto-single-info h1 {
+    border-bottom: 3px solid #c2c2c2;
+    padding-bottom:  20px;
+    text-shadow:  0 0 0;
+}
+
+.burrinto-single-info h1 {
+    color:  #3b0000;
+}
+
+.burrinto-info-title h1 {
+    color:  #b41502;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.burrinto-info-title {
+    padding: 150px 0;
+    color: #595959;
+}
+
+.header-wrap.burrito-v1 {
+    /*height: 150vh;*/
+}
+
+.burrinto-info-wrap {
+    margin-top:  -100px;
+    background-color:  #cecece;
+    background-image: url(assets/img/burrito/info-bg.jpg);
+}
+
+.testimonial-wrap.burrito-v1 .section-title {
+    color:  #fff;
+}
+
+.single-burrito-gallary {
+    height: 350px;
+    border: 5px solid #fff;
+    display: inline-block;
+    width: 33.333%;
+    float:  left;
+}
+
+.footer-top-wrap.burrito-v1 {
+    background-color:  #fff;
+    padding-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-top-wrap.burrito-v1:after, .footer-top-wrap.burrito-v1 .footer-top-innner:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    content: '';
+    background-color: #3b0000;
+    z-index: -1;
+}
+
+.footer-top-wrap.burrito-v1 .footer-top-innner:before {
+    bottom: 100%;
+    height: 25px;
+}
+
+.footer-top-wrap.burrito-v1 .footer-top-innner {
+    background-color:  #b41502;
+    padding: 50px 0;
+    position: relative;
+}
+
+.testimonial-wrap.burrito-v1 {
+    background-color:  #fea200;
+    padding-bottom: 0;
+}
+
+.testimonial-wrap.burrito-v1 .testimonial-slide.burrito-v1 .single-tes-slide {
+    background-color: #3b0000;
+    color:  #ffffff;
+    margin:  50px 0;
+    padding: 150px 50px 100px 50px;
+}
+
+.testimonial-wrap.burrito-v1 .testimonial-slide.burrito-v1 .single-tes-slide .tes-img {
+    position: absolute;
+    top: -50px;
+    left:  50%;
+    margin-left:  -50px;
+}
+
+.testimonial-wrap.burrito-v1 .testimonial-slide.burrito-v1 .single-tes-slide h4,
+.testimonial-wrap.burrito-v1 .testimonial-slide.burrito-v1 .single-tes-slide .tes-content:before,
+.testimonial-wrap.burrito-v1 .testimonial-slide.burrito-v1 .single-tes-slide .tes-content:after {
+    color: #fea200;
+}
+
+.testimonial-wrap.burrito-v1 {
+    position: relative;
+    margin-top: -102px
+    padding-top: 170px;;
+}
+
+.testimonial-wrap.burrito-v1:after {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    content: '';
+}
+
+.subs-img-slider-wrap.burrito-v1 .subs-img-slide .owl-item.center .single-subs-img {
+    height:  150vh;
+}
+
+.subs-img-slider-wrap.burrito-v1 .subs-img-slide .owl-item .single-subs-img {
+    height: 120vh;
+}
+
+.subs-img-slide .owl-item .single-subs-img {
+    margin: 16% 0;
+}
+
+.subs-img-slider-wrap.burrito-v1 {
+    position:  relative;
+    z-index: 3;
+    padding-top: 50px;
+}
+
+.subs-img-slider-wrap.burrito-v1:after {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width:  100%;
+    height:  152px;
+    content:  '';
+    background-image: url(assets/img/burrito/slide-top-shape.png);
+    z-index: -1;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.subs-img-slider-wrap.burrito-v1 .owl-controls .owl-nav div {
+    height: 80px;
+    width: 80px;
+}
+
+.footer-top-wrap.burrito-v1 h2, .footer-top-wrap.burrito-v1 h4, .footer-top-wrap.burrito-v1 ul.social-menu li a {
+    color: #fea200   
+}
+
+.footer-wrap.burrito-v1 {
+    background-color: #3b0000;
+}
+
+.footer-wrap.burrito-v1, .footer-wrap.burrito-v1 a {
+    color: #fea200;
+}
+
+.dounts-content-wrap.burrito-about-content .dounts-content-inner {
+    background-color: #fff;
+    color:  #535353;
+}
+
+.dounts-content-wrap.burrito-about-content .dounts-content-inner:before, .dounts-content-wrap.burrito-about-content .dounts-content-inner:after,
+.dounts-content-wrap.burrito-about-conten {
+    display:  none;
+}
+
+.dounts-content-wrap.burrito-about-content .dounts-content-inner h1 {
+    margin-bottom: 50px;
+    color:  #3b0000;
+}
+
+.dounts-content-wrap.burrito-about-content {
+    padding-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.dounts-content-wrap.burrito-about-content:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55%;
+    content: '';
+    background-image: url(assets/img/burrito/info-bg.jpg);
+    z-index: -1;
+}
+
+.header-wrap.burrito-v1 .navigation-wrap {
+    padding: 0;
+    padding-top: 25px;
+}
+
+.burrito-v1 ul.main-menu li {
+    padding-bottom: 25px;
+}
+
+.burrito-v1 ul.main-menu li:before,.burrito-v1  ul.main-menu li:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: #b71200;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.burrito-v1  ul.main-menu li:first-child:before { display: block; }
+
+.burrito-v1  ul.main-menu li:before {
+    height: 6px;
+    background-color: #fea200;
+    top: auto;
+    bottom: -3px;
+    z-index: 1;
+}
+
+.burrito-v1 ul.main-menu li:hover:before,.burrito-v1  ul.main-menu li:hover:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burrito-v1  ul.main-menu li:hover a {
+    color: #fff;
+}
+
+.testimonial-wrap.burrito-v1 .testimonial-slide.burrito-v1 .single-tes-slide.color-2 {
+    background-color: #af7000;
+}
+
+.testimonial-wrap.burrito-v1 .testimonial-slide.burrito-v1 .single-tes-slide.color-3 {
+    background-color: #b41502;
 }

@@ -291,6 +291,26 @@ TABLET LAYOUT : 768px.
 		left: auto;
 	}
 
+	.subs-img-slider-wrap.burrito-v1 .subs-img-slide .owl-item .single-subs-img, .subs-img-slider-wrap.burrito-v1 .subs-img-slide .owl-item.center .single-subs-img {
+	    height:  100vh;
+	    margin: 0;
+	}
+
+	.single-burrito-gallary {
+	    width:  50%;
+	}
+
+	.footer-top-wrap.burrito-v1 .footer-top-innner {
+	    padding-left:  25px;
+	    padding-right:  25px;
+	}
+
+	.dounts-content-wrap.burrito-about-content .dounts-content-inner {
+	    font-size:  17px;
+	    padding:  15px;
+	    padding-top:  50px;
+	}
+
 }
 
 /*=====================
@@ -763,6 +783,25 @@ SMALL MOBILE LAYOUT : 320px.
 
 	.header-wrap.dounts-v2 .navigation-wrap .slicknav_nav a {
 		color: #fff;
+	}
+
+	.subs-img-slider-wrap.burrito-v1 .subs-img-slide .owl-item .single-subs-img, .subs-img-slider-wrap.burrito-v1 .subs-img-slide .owl-item.center .single-subs-img {
+	    height:  100vh;
+	    margin: 0;
+	}
+
+	.single-burrito-gallary {
+	    width:  100%;
+	}
+
+	.footer-top-wrap.burrito-v1 .footer-top-innner {
+	    padding-left:  25px;
+	    padding-right:  25px;
+	}	
+	.dounts-content-wrap.burrito-about-content .dounts-content-inner {
+	    font-size:  17px;
+	    padding:  15px;
+	    padding-top:  50px;
 	}
 }
 

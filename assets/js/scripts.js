@@ -46,6 +46,29 @@
 
         // Dounts Testimonial Slider
         $('#dounts_testimonial_slide').owlCarousel({
+            items: 3,
+            loop: true,
+            dots: false,
+            nav: false,
+            margin: 30,
+            responsive : {
+                0 : {
+                    items: 1,
+                },
+                480 : {
+                    items: 1,
+                },
+                768 : {
+                    items: 2,
+                },
+                1100 : {
+                    items: 3,
+                }
+            }
+        });
+
+        // Burrito Testimonial Slider
+        $('#burrito_testimonial_slide').owlCarousel({
         	items: 3,
         	loop: true,
         	dots: false,
@@ -67,6 +90,7 @@
             }
         });
 
+        // Mobile Menu / Activate slicknav
         $('.main-menu').slicknav({
             appendTo: '.mobile-menu'
         });
@@ -77,7 +101,6 @@
         $owl.children().each( function( index ) {
           $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
         });
-
         $owl.owlCarousel({
           center: true,
           loop: true,
@@ -97,9 +120,39 @@
             }
         }
         });
-
         $(document).on('click', '.owl-item .single-subs-img', function() {
             $owl.trigger('to.owl.carousel', $(this).data( 'position' ) );
+        });
+
+        // Burrito Image Slider
+        var $owl_burrito = $('#burrito_img');
+        $owl_burrito.children().each( function( index ) {
+          $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
+        });
+        $owl_burrito.owlCarousel({
+          center: true,
+          loop: true,
+          items: 3,
+          nav: true,          
+          navText: ["<img src='./assets/img/burrito/arrow-left.png'>","<img src='./assets/img/burrito/arrow-right.png'>"],
+          responsive : {
+            0 : {
+                items: 1,
+            },
+            480 : {
+                items: 1,
+            },
+            768 : {
+                items: 1,
+            },
+            1100 : {
+                items: 3,
+            }
+        }
+        });
+
+        $(document).on('click', '.owl-item .single-subs-img', function() {
+            $owl_burrito.trigger('to.owl.carousel', $(this).data( 'position' ) );
         });
 
         // Activate the Isotope Plugin for Portfolio
